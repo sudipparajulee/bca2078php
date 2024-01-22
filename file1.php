@@ -9,6 +9,7 @@ session_start();
 <?php
 //set session variables
 $_SESSION['username'] = "Ram";
+
 ?>
 
 <a href="file2.php">Next Page</a>
