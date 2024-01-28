@@ -12,18 +12,14 @@ if (!$con) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-$name = "Sudip";
-$email = "sudip@bits.com";
-$password = "123456";
-$age = 25;
+// sql to add column
+$sql = "ALTER TABLE users ADD age INT(2) NOT NULL DEFAULT '20'";
 
-// sql to insert data
-$sql = "INSERT INTO users (name, email, password, age) VALUES ('$name', '$email', '$password', $age)";
-
+// Execute sql query
 if (mysqli_query($con, $sql)) {
-    echo "New record created successfully";
+    echo "Column added successfully";
 } else {
-    echo "Error on Insert: <br>" . mysqli_error($con);
+    echo "Error adding column: " . mysqli_error($con);
 }
 
 mysqli_close($con);
