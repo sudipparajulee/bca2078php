@@ -1,0 +1,23 @@
+1. Write javascript code to show arithmetic operation.
+2. Write javascript code to check if a number from input is even or odd.
+3. Write javascript code to input username and password. Then make following validations.
+    a. Username and password are required.
+    b. Username and password cannot be same.
+    c. Username must be at least 5 character long.
+    d. Password must be at least 8 character long. 
+
+4. Write javascript code to change a red text to blue when a button is clicked, and blue to red if the button is clicked again.
+5. Write example to store, get and delete cookie in Javascript.
+6. Write javascript to check password while typing in repassword box. (Use two password boxes).
+7. Write javascript code to input email and phone from user and apply following valiations. 
+    a. Email must be in valid email format
+    b. Phone must be exact 10 digit starting with 98.
+8. Write PHP code to show 5 names that are stored in array using foreach.
+9. Write PHP code to create database.
+10. Write PHP code to create users table with name, phone, email and password.
+11. Write PHP code to insert user details in users table.
+12. Write PHP code to update data of a user in users table. 
+13. Write PHP code to delete a user from users table.
+14. Write PHP code to show login function , also use SESSION.
+15. Write PHP code to show static member example.
+16. Write PHP code to store your introduction in a text file.
